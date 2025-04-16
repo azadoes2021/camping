@@ -55,7 +55,7 @@ header {
 header div h1 a {
   display: block;
   aspect-ratio: 138 / 35;
-  background: url(/images/logo.png) no-repeat;
+  background: url(../images/logo.png) no-repeat;
   background-size: cover;
   width: 10rem;  
   overflow: hidden;
