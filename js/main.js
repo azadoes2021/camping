@@ -6,14 +6,15 @@ menu.onclick = () => {
   menu.classList.toggle("move");
   navbar.classList.toggle("open-menu");
 };
+
+
 // Category Swiper
 var swiper = new Swiper(".categorySwiper", {
 
-
-  // autoplay: {
-  //   delay: 4500,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 4500,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -46,10 +47,10 @@ var swiper = new Swiper(".categorySwiper", {
 var swiper = new Swiper(".selling-slider", {
 
 
-  // autoplay: {
-  //   delay: 4500,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 4500,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
